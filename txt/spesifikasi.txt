@@ -1,0 +1,20 @@
+ICON :
+    (Akun Aktif)
+        https://fonts.google.com/icons?selected=Material+Icons
+        perm identity / account box / person / person outline / person off / potrait
+    (Expand Menu)
+        https://fonts.google.com/icons?selected=Material+Icons
+        view agenda / menu / apps
+    (Email)
+        https://fonts.google.com/icons?selected=Material+Icons
+        alternate email
+    (Icon Loading Page)
+        https://fonts.google.com/icons?selected=Material+Icons
+        blur on / rotate right / rotate left / flip camera android / motion photos on
+    (Call Phone)
+        https://fonts.google.com/icons?selected=Material+Icons
+        phone in talk / support agent
+
+... :
+    ()
+        

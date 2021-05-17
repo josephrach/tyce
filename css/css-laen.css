@@ -1,0 +1,136 @@
+/*==================================================================================
+    contoh pembatas
+====================================================================================*/
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+.col-md-4 {
+    /* border: 5px solid black; */
+    }
+* {
+    font-family: krona-one ,sans-serif;
+}
+.navbar{
+    background-color: rgb(10, 9, 9);
+    opacity: 1;
+    box-shadow: 0 5px 1px #eee;
+    /* background: linear-gradient(to bottom,#111, #fff ) */
+    
+}
+a{
+    /* color: white;
+    text-decoration: none; */
+    /* all: unset; */
+}
+
+body{
+    background-image: url(../img/bgIMG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+img{
+    width: 30px ;
+    height: 30px;
+}
+
+.lazada{border-radius: 50%;}
+.ecommers-konten{position: relative; left: 15%; right: -50%;}
+
+#tbl-login{color:"red"}
+
+#logo{font-family: 'krona-one', sans-serif;font-size: 30px;}
+
+.header__menu {
+	display: inline-block;
+}
+
+.icon_menu_expand{}
+
+.header__menu ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 45px;
+	position: relative;
+}
+
+.header__menu ul li.active a:after {
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+
+.header__menu ul li:hover a:after {
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+
+.header__menu ul li:hover .dropdown {
+	top: 82px;
+	opacity: 1;
+	visibility: visible;
+}
+
+.header__menu ul li:last-child {
+	margin-right: 0;
+}
+
+.header__menu ul li .dropdown {
+	position: absolute;
+	left: 0;
+	top: 110px;
+	width: 150px;
+	background: #111111;
+	text-align: left;
+	padding: 2px 0;
+	z-index: 9;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all, 0.3s;
+	-o-transition: all, 0.3s;
+	transition: all, 0.3s;
+}
+
+.header__menu ul li .dropdown li {
+	display: block;
+	margin-right: 0;
+}
+
+.header__menu ul li .dropdown li a {
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: 400;
+	padding: 8px 20px;
+	text-transform: capitalize;
+}
+
+.header__menu ul li .dropdown li a:after {
+	display: none;
+}
+
+.header__menu ul li a {
+	font-size: 18px;
+	font-weight: 700;
+	color: #ffffff;
+	display: block;
+	padding: 26px 0 28px;
+	position: relative;
+}
+
+.header__menu ul li a:after {
+	position: absolute;
+	left: 0;
+	bottom: -2px;
+	width: 100%;
+	height: 2px;
+	background: #6763fd;
+	content: "";
+	-webkit-transform: scale(0);
+	-ms-transform: scale(0);
+	transform: scale(0);
+	-webkit-transition: all, 0.5s;
+	-o-transition: all, 0.5s;
+	transition: all, 0.5s;
+}
