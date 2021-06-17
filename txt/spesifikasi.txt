@@ -15,6 +15,13 @@ ICON :
         https://fonts.google.com/icons?selected=Material+Icons
         phone in talk / support agent
 
+FONT :   
+    (Font-Family)
+        https://fonts.google.com/specimen/Poppins?query=poppins
+        poppins
+        https://fonts.google.com/specimen/Staatliches?query=staatlich
+        Staatliches 
+
 ... :
     ()
         
